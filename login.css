@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Calibri;
+} 
+body{
+    
+    background-image: url(back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav h1{
+    color:rgb(0, 0, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    border: 5px solid whitesmoke;
+    text-align: center;
+    background-color: whitesmoke;  
+    margin-bottom: 20px;  
+   
+}
+.login-form{
+    font-size: 20px;
+    margin-left: 35%;
+    margin-right: 20%;
+    line-height: 40px;
+    background-color: #fff;
+    padding: 40px;
+    width: 300px;
+    border: 1px double #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    
+}
+.login-form input{
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(219, 215, 215) ;
+    background-color:whitesmoke ;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.login-form button{
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgb(28, 28, 255);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    
+    
+   
+}
+.login-form button:hover{
+   background-color:rgb(77, 77, 253);
+}
+.login-form p{
+    text-align: center;
+      margin-top: 15px;
+      padding: 20px;
+}
+.login-form p a{
+    text-decoration: none;
+    color: rgb(0, 173, 0);
+    font-size: 20px;
+   
+    
+    
+}
+.login-form p a:hover{
+     color: rgb(0, 216, 0);
+}
